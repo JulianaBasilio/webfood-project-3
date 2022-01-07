@@ -90,3 +90,18 @@ main h1 {
 .btn:hover {
     background-color: rgb(221, 134, 34);
 }
+
+@media(max-width: 48rem) {
+    #main-header nav {
+        display: none;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    #latest-products ul {
+        grid-template-columns: 100%;
+
+    }
+}
